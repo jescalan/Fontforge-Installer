@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D33BDA415067D2A008E05AC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D33BDA315067D2A008E05AC /* Cocoa.framework */; };
+		0D33BDAE15067D2A008E05AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D33BDAC15067D2A008E05AC /* InfoPlist.strings */; };
+		0D33BDB015067D2A008E05AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D33BDAF15067D2A008E05AC /* main.m */; };
+		0D33BDB415067D2A008E05AC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0D33BDB215067D2A008E05AC /* Credits.rtf */; };
+		0D33BDB715067D2A008E05AC /* fontforgeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D33BDB615067D2A008E05AC /* fontforgeAppDelegate.m */; };
+		0D33BDBA15067D2A008E05AC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D33BDB815067D2A008E05AC /* MainMenu.xib */; };
+		0D33BDC215067D2A008E05AC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D33BDC115067D2A008E05AC /* SenTestingKit.framework */; };
+		0D33BDC315067D2A008E05AC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D33BDA315067D2A008E05AC /* Cocoa.framework */; };
+		0D33BDCB15067D2A008E05AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D33BDC915067D2A008E05AC /* InfoPlist.strings */; };
+		0D33BDCE15067D2A008E05AC /* FontForge_InstallerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D33BDCD15067D2A008E05AC /* FontForge_InstallerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D33BDC415067D2A008E05AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D33BD9615067D29008E05AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D33BD9E15067D2A008E05AC;
+			remoteInfo = "FontForge Installer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D33BD9F15067D2A008E05AC /* FontForge Installer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FontForge Installer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D33BDA315067D2A008E05AC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0D33BDA615067D2A008E05AC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0D33BDA715067D2A008E05AC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0D33BDA815067D2A008E05AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0D33BDAB15067D2A008E05AC /* FontForge Installer-Info.plist */ = {isa = PBXFileReference; path = "FontForge Installer-Info.plist"; sourceTree = "<group>"; };
+		0D33BDAD15067D2A008E05AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0D33BDAF15067D2A008E05AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D33BDB115067D2A008E05AC /* FontForge Installer-Prefix.pch */ = {isa = PBXFileReference; path = "FontForge Installer-Prefix.pch"; sourceTree = "<group>"; };
+		0D33BDB315067D2A008E05AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0D33BDB515067D2A008E05AC /* fontforgeAppDelegate.h */ = {isa = PBXFileReference; path = fontforgeAppDelegate.h; sourceTree = "<group>"; };
+		0D33BDB615067D2A008E05AC /* fontforgeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fontforgeAppDelegate.m; sourceTree = "<group>"; };
+		0D33BDB915067D2A008E05AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0D33BDC015067D2A008E05AC /* FontForge InstallerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FontForge InstallerTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D33BDC115067D2A008E05AC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0D33BDC815067D2A008E05AC /* FontForge InstallerTests-Info.plist */ = {isa = PBXFileReference; path = "FontForge InstallerTests-Info.plist"; sourceTree = "<group>"; };
+		0D33BDCA15067D2A008E05AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0D33BDCC15067D2A008E05AC /* FontForge_InstallerTests.h */ = {isa = PBXFileReference; path = FontForge_InstallerTests.h; sourceTree = "<group>"; };
+		0D33BDCD15067D2A008E05AC /* FontForge_InstallerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontForge_InstallerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D33BD9C15067D2A008E05AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D33BDA415067D2A008E05AC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D33BDBC15067D2A008E05AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D33BDC215067D2A008E05AC /* SenTestingKit.framework in Frameworks */,
+				0D33BDC315067D2A008E05AC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D33BD9415067D29008E05AC = {
+			isa = PBXGroup;
+			children = (
+				0D33BDA915067D2A008E05AC /* FontForge Installer */,
+				0D33BDC615067D2A008E05AC /* FontForge InstallerTests */,
+				0D33BDA215067D2A008E05AC /* Frameworks */,
+				0D33BDA015067D2A008E05AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D33BDA015067D2A008E05AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D33BD9F15067D2A008E05AC /* FontForge Installer.app */,
+				0D33BDC015067D2A008E05AC /* FontForge InstallerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D33BDA215067D2A008E05AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D33BDA315067D2A008E05AC /* Cocoa.framework */,
+				0D33BDC115067D2A008E05AC /* SenTestingKit.framework */,
+				0D33BDA515067D2A008E05AC /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D33BDA515067D2A008E05AC /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D33BDA615067D2A008E05AC /* AppKit.framework */,
+				0D33BDA715067D2A008E05AC /* CoreData.framework */,
+				0D33BDA815067D2A008E05AC /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0D33BDA915067D2A008E05AC /* FontForge Installer */ = {
+			isa = PBXGroup;
+			children = (
+				0D33BDB515067D2A008E05AC /* fontforgeAppDelegate.h */,
+				0D33BDB615067D2A008E05AC /* fontforgeAppDelegate.m */,
+				0D33BDB815067D2A008E05AC /* MainMenu.xib */,
+				0D33BDAA15067D2A008E05AC /* Supporting Files */,
+			);
+			path = "FontForge Installer";
+			sourceTree = "<group>";
+		};
+		0D33BDAA15067D2A008E05AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D33BDAB15067D2A008E05AC /* FontForge Installer-Info.plist */,
+				0D33BDAC15067D2A008E05AC /* InfoPlist.strings */,
+				0D33BDAF15067D2A008E05AC /* main.m */,
+				0D33BDB115067D2A008E05AC /* FontForge Installer-Prefix.pch */,
+				0D33BDB215067D2A008E05AC /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0D33BDC615067D2A008E05AC /* FontForge InstallerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D33BDCC15067D2A008E05AC /* FontForge_InstallerTests.h */,
+				0D33BDCD15067D2A008E05AC /* FontForge_InstallerTests.m */,
+				0D33BDC715067D2A008E05AC /* Supporting Files */,
+			);
+			path = "FontForge InstallerTests";
+			sourceTree = "<group>";
+		};
+		0D33BDC715067D2A008E05AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D33BDC815067D2A008E05AC /* FontForge InstallerTests-Info.plist */,
+				0D33BDC915067D2A008E05AC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D33BD9E15067D2A008E05AC /* FontForge Installer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D33BDD115067D2A008E05AC /* Build configuration list for PBXNativeTarget "FontForge Installer" */;
+			buildPhases = (
+				0D33BD9B15067D2A008E05AC /* Sources */,
+				0D33BD9C15067D2A008E05AC /* Frameworks */,
+				0D33BD9D15067D2A008E05AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FontForge Installer";
+			productName = "FontForge Installer";
+			productReference = 0D33BD9F15067D2A008E05AC /* FontForge Installer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D33BDBF15067D2A008E05AC /* FontForge InstallerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D33BDD415067D2A008E05AC /* Build configuration list for PBXNativeTarget "FontForge InstallerTests" */;
+			buildPhases = (
+				0D33BDBB15067D2A008E05AC /* Sources */,
+				0D33BDBC15067D2A008E05AC /* Frameworks */,
+				0D33BDBD15067D2A008E05AC /* Resources */,
+				0D33BDBE15067D2A008E05AC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D33BDC515067D2A008E05AC /* PBXTargetDependency */,
+			);
+			name = "FontForge InstallerTests";
+			productName = "FontForge InstallerTests";
+			productReference = 0D33BDC015067D2A008E05AC /* FontForge InstallerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D33BD9615067D29008E05AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0D33BD9915067D29008E05AC /* Build configuration list for PBXProject "FontForge Installer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0D33BD9415067D29008E05AC;
+			productRefGroup = 0D33BDA015067D2A008E05AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D33BD9E15067D2A008E05AC /* FontForge Installer */,
+				0D33BDBF15067D2A008E05AC /* FontForge InstallerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D33BD9D15067D2A008E05AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D33BDAE15067D2A008E05AC /* InfoPlist.strings in Resources */,
+				0D33BDB415067D2A008E05AC /* Credits.rtf in Resources */,
+				0D33BDBA15067D2A008E05AC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D33BDBD15067D2A008E05AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D33BDCB15067D2A008E05AC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D33BDBE15067D2A008E05AC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D33BD9B15067D2A008E05AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D33BDB015067D2A008E05AC /* main.m in Sources */,
+				0D33BDB715067D2A008E05AC /* fontforgeAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D33BDBB15067D2A008E05AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D33BDCE15067D2A008E05AC /* FontForge_InstallerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D33BDC515067D2A008E05AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D33BD9E15067D2A008E05AC /* FontForge Installer */;
+			targetProxy = 0D33BDC415067D2A008E05AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D33BDAC15067D2A008E05AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D33BDAD15067D2A008E05AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0D33BDB215067D2A008E05AC /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D33BDB315067D2A008E05AC /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		0D33BDB815067D2A008E05AC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D33BDB915067D2A008E05AC /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		0D33BDC915067D2A008E05AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D33BDCA15067D2A008E05AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D33BDCF15067D2A008E05AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0D33BDD015067D2A008E05AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0D33BDD215067D2A008E05AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FontForge Installer/FontForge Installer-Prefix.pch";
+				INFOPLIST_FILE = "FontForge Installer/FontForge Installer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0D33BDD315067D2A008E05AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FontForge Installer/FontForge Installer-Prefix.pch";
+				INFOPLIST_FILE = "FontForge Installer/FontForge Installer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0D33BDD515067D2A008E05AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FontForge Installer.app/Contents/MacOS/FontForge Installer";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FontForge Installer/FontForge Installer-Prefix.pch";
+				INFOPLIST_FILE = "FontForge InstallerTests/FontForge InstallerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0D33BDD615067D2A008E05AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FontForge Installer.app/Contents/MacOS/FontForge Installer";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FontForge Installer/FontForge Installer-Prefix.pch";
+				INFOPLIST_FILE = "FontForge InstallerTests/FontForge InstallerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D33BD9915067D29008E05AC /* Build configuration list for PBXProject "FontForge Installer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D33BDCF15067D2A008E05AC /* Debug */,
+				0D33BDD015067D2A008E05AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D33BDD115067D2A008E05AC /* Build configuration list for PBXNativeTarget "FontForge Installer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D33BDD215067D2A008E05AC /* Debug */,
+				0D33BDD315067D2A008E05AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0D33BDD415067D2A008E05AC /* Build configuration list for PBXNativeTarget "FontForge InstallerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D33BDD515067D2A008E05AC /* Debug */,
+				0D33BDD615067D2A008E05AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D33BD9615067D29008E05AC /* Project object */;
+}
