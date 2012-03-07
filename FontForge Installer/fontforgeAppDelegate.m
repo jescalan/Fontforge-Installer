@@ -42,7 +42,7 @@
         
     NSTask *task;
     task = [NSTask launchedTaskWithLaunchPath: @"/bin/bash"
-                                    arguments:[NSArray arrayWithObjects: cancelPath, nil]
+                                    arguments:[NSArray arrayWithObjects: setupPath, nil]
             ];
     
     [task waitUntilExit];
