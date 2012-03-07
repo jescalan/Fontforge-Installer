@@ -54,22 +54,22 @@
     NSAppleScript *appleScript = [[NSAppleScript new] initWithSource:script]; 
     if ([appleScript executeAndReturnError:&error]) {
         NSLog(@"success!");
-        NSTask *task;
-        task = [NSTask launchedTaskWithLaunchPath: @"/bin/bash"
+        NSTask *task2;
+        task2 = [NSTask launchedTaskWithLaunchPath: @"/bin/bash"
                                         arguments:[NSArray arrayWithObjects: finishPath, nil]
                 ];
         
-        [task waitUntilExit];
+        [task2 waitUntilExit];
         [_spinner setHidden: YES];
         [_installStatus setStringValue: @"great success!"];
     } else {
         NSLog(@"%@", error);
-        NSTask *task;
-        task = [NSTask launchedTaskWithLaunchPath: @"/bin/bash"
+        NSTask *task2;
+        task2 = [NSTask launchedTaskWithLaunchPath: @"/bin/bash"
                                         arguments:[NSArray arrayWithObjects: cancelPath, nil]
                 ];
         
-        [task waitUntilExit];
+        [task2 waitUntilExit];
         [_installStatus setStringValue: @"huge failure!"];
     }
 

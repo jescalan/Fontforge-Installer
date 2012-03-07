@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cd /tmp
 curl -o fontforge.tar.bz2 http://iweb.dl.sourceforge.net/project/fontforge/fontforge-source/fontforge_full-20110222.tar.bz2
 tar -xjf fontforge.tar.bz2
