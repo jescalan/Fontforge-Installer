@@ -41,7 +41,6 @@
     NSString* cancelPath = [NSString stringWithFormat:@"%@%@", scriptsPath, @"cancel.sh"];
         
     NSTask *task;
-    NSTask *task2;
     task = [NSTask launchedTaskWithLaunchPath: @"/bin/bash"
                                     arguments:[NSArray arrayWithObjects: cancelPath, nil]
             ];
@@ -55,13 +54,17 @@
     NSAppleScript *appleScript = [[NSAppleScript new] initWithSource:script]; 
     if ([appleScript executeAndReturnError:&error]) {
         NSLog(@"success! running make install");
-        task = [NSTask launchedTaskWithLaunchPath: @"/bin/bash"
-                                        arguments:[NSArray arrayWithObjects: finishPath, nil]
-                ];
         
-        [task waitUntilExit];
-        [_spinner setHidden: YES];
-        [_installStatus setStringValue: @"great success!"];
+        NSDictionary *error2 = [NSDictionary new]; 
+        NSString *script2 =  @"do shell script \"cd /tmp/fontforge-20110222; make install\" ";  
+        NSAppleScript *appleScript2 = [[NSAppleScript new] initWithSource:script2]; 
+        if ([appleScript2 executeAndReturnError:&error2]) {
+            [_spinner setHidden: YES];
+            [_installStatus setStringValue: @"great success!"];
+        } else {
+            NSLog(@"%@", error2);
+        }
+        
     } else {
         NSLog(@"%@", error);
         NSTask *task2;
