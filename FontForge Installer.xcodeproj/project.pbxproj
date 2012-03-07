@@ -17,6 +17,11 @@
 		0D33BDC315067D2A008E05AC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D33BDA315067D2A008E05AC /* Cocoa.framework */; };
 		0D33BDCB15067D2A008E05AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D33BDC915067D2A008E05AC /* InfoPlist.strings */; };
 		0D33BDCE15067D2A008E05AC /* FontForge_InstallerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D33BDCD15067D2A008E05AC /* FontForge_InstallerTests.m */; };
+		0D33BDE21506AE5D008E05AC /* finish.sh in Resources */ = {isa = PBXBuildFile; fileRef = 0D33BDDE1506AE5D008E05AC /* finish.sh */; };
+		0D33BDE31506AE5D008E05AC /* cancel.sh in Resources */ = {isa = PBXBuildFile; fileRef = 0D33BDDF1506AE5D008E05AC /* cancel.sh */; };
+		0D33BDE41506AE5D008E05AC /* uninstall.sh in Resources */ = {isa = PBXBuildFile; fileRef = 0D33BDE01506AE5D008E05AC /* uninstall.sh */; };
+		0D33BDEC1506C57F008E05AC /* setup.sh in Resources */ = {isa = PBXBuildFile; fileRef = 0D33BDEB1506C57F008E05AC /* setup.sh */; };
+		0D33BDEE1506C673008E05AC /* setup in Resources */ = {isa = PBXBuildFile; fileRef = 0D33BDED1506C673008E05AC /* setup */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +40,25 @@
 		0D33BDA615067D2A008E05AC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		0D33BDA715067D2A008E05AC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		0D33BDA815067D2A008E05AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		0D33BDAB15067D2A008E05AC /* FontForge Installer-Info.plist */ = {isa = PBXFileReference; path = "FontForge Installer-Info.plist"; sourceTree = "<group>"; };
+		0D33BDAB15067D2A008E05AC /* FontForge Installer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FontForge Installer-Info.plist"; sourceTree = "<group>"; };
 		0D33BDAD15067D2A008E05AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0D33BDAF15067D2A008E05AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0D33BDB115067D2A008E05AC /* FontForge Installer-Prefix.pch */ = {isa = PBXFileReference; path = "FontForge Installer-Prefix.pch"; sourceTree = "<group>"; };
+		0D33BDB115067D2A008E05AC /* FontForge Installer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FontForge Installer-Prefix.pch"; sourceTree = "<group>"; };
 		0D33BDB315067D2A008E05AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		0D33BDB515067D2A008E05AC /* fontforgeAppDelegate.h */ = {isa = PBXFileReference; path = fontforgeAppDelegate.h; sourceTree = "<group>"; };
+		0D33BDB515067D2A008E05AC /* fontforgeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fontforgeAppDelegate.h; sourceTree = "<group>"; };
 		0D33BDB615067D2A008E05AC /* fontforgeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fontforgeAppDelegate.m; sourceTree = "<group>"; };
 		0D33BDB915067D2A008E05AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		0D33BDC015067D2A008E05AC /* FontForge InstallerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FontForge InstallerTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D33BDC115067D2A008E05AC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		0D33BDC815067D2A008E05AC /* FontForge InstallerTests-Info.plist */ = {isa = PBXFileReference; path = "FontForge InstallerTests-Info.plist"; sourceTree = "<group>"; };
+		0D33BDC815067D2A008E05AC /* FontForge InstallerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FontForge InstallerTests-Info.plist"; sourceTree = "<group>"; };
 		0D33BDCA15067D2A008E05AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0D33BDCC15067D2A008E05AC /* FontForge_InstallerTests.h */ = {isa = PBXFileReference; path = FontForge_InstallerTests.h; sourceTree = "<group>"; };
+		0D33BDCC15067D2A008E05AC /* FontForge_InstallerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontForge_InstallerTests.h; sourceTree = "<group>"; };
 		0D33BDCD15067D2A008E05AC /* FontForge_InstallerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontForge_InstallerTests.m; sourceTree = "<group>"; };
+		0D33BDDE1506AE5D008E05AC /* finish.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = finish.sh; sourceTree = "<group>"; };
+		0D33BDDF1506AE5D008E05AC /* cancel.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = cancel.sh; sourceTree = "<group>"; };
+		0D33BDE01506AE5D008E05AC /* uninstall.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = uninstall.sh; sourceTree = "<group>"; };
+		0D33BDEB1506C57F008E05AC /* setup.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = setup.sh; sourceTree = "<group>"; };
+		0D33BDED1506C673008E05AC /* setup */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = setup; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +124,7 @@
 		0D33BDA915067D2A008E05AC /* FontForge Installer */ = {
 			isa = PBXGroup;
 			children = (
+				0D33BDDB1506AE3F008E05AC /* scripts */,
 				0D33BDB515067D2A008E05AC /* fontforgeAppDelegate.h */,
 				0D33BDB615067D2A008E05AC /* fontforgeAppDelegate.m */,
 				0D33BDB815067D2A008E05AC /* MainMenu.xib */,
@@ -151,6 +162,18 @@
 				0D33BDC915067D2A008E05AC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0D33BDDB1506AE3F008E05AC /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				0D33BDED1506C673008E05AC /* setup */,
+				0D33BDEB1506C57F008E05AC /* setup.sh */,
+				0D33BDDE1506AE5D008E05AC /* finish.sh */,
+				0D33BDDF1506AE5D008E05AC /* cancel.sh */,
+				0D33BDE01506AE5D008E05AC /* uninstall.sh */,
+			);
+			name = scripts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +249,11 @@
 				0D33BDAE15067D2A008E05AC /* InfoPlist.strings in Resources */,
 				0D33BDB415067D2A008E05AC /* Credits.rtf in Resources */,
 				0D33BDBA15067D2A008E05AC /* MainMenu.xib in Resources */,
+				0D33BDE21506AE5D008E05AC /* finish.sh in Resources */,
+				0D33BDE31506AE5D008E05AC /* cancel.sh in Resources */,
+				0D33BDE41506AE5D008E05AC /* uninstall.sh in Resources */,
+				0D33BDEC1506C57F008E05AC /* setup.sh in Resources */,
+				0D33BDEE1506C673008E05AC /* setup in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +463,7 @@
 				0D33BDD315067D2A008E05AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D33BDD415067D2A008E05AC /* Build configuration list for PBXNativeTarget "FontForge InstallerTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +472,7 @@
 				0D33BDD615067D2A008E05AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
