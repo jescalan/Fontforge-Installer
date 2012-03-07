@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cd /tmp/fontforge-20110222
 make install
 cd ..
