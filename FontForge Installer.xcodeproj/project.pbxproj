@@ -22,6 +22,7 @@
 		0D33BDE41506AE5D008E05AC /* uninstall.sh in Resources */ = {isa = PBXBuildFile; fileRef = 0D33BDE01506AE5D008E05AC /* uninstall.sh */; };
 		0D33BDEC1506C57F008E05AC /* setup.sh in Resources */ = {isa = PBXBuildFile; fileRef = 0D33BDEB1506C57F008E05AC /* setup.sh */; };
 		0D33BDEE1506C673008E05AC /* setup in Resources */ = {isa = PBXBuildFile; fileRef = 0D33BDED1506C673008E05AC /* setup */; };
+		0D7B172B150A73E80081C2B1 /* fontforge.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0D7B172A150A73E80081C2B1 /* fontforge.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		0D33BDE01506AE5D008E05AC /* uninstall.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = uninstall.sh; sourceTree = "<group>"; };
 		0D33BDEB1506C57F008E05AC /* setup.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = setup.sh; sourceTree = "<group>"; };
 		0D33BDED1506C673008E05AC /* setup */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = setup; sourceTree = "<group>"; };
+		0D7B172A150A73E80081C2B1 /* fontforge.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = fontforge.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 		0D33BDA915067D2A008E05AC /* FontForge Installer */ = {
 			isa = PBXGroup;
 			children = (
+				0D7B172A150A73E80081C2B1 /* fontforge.icns */,
 				0D33BDDB1506AE3F008E05AC /* scripts */,
 				0D33BDB515067D2A008E05AC /* fontforgeAppDelegate.h */,
 				0D33BDB615067D2A008E05AC /* fontforgeAppDelegate.m */,
@@ -254,6 +257,7 @@
 				0D33BDE41506AE5D008E05AC /* uninstall.sh in Resources */,
 				0D33BDEC1506C57F008E05AC /* setup.sh in Resources */,
 				0D33BDEE1506C673008E05AC /* setup in Resources */,
+				0D7B172B150A73E80081C2B1 /* fontforge.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
