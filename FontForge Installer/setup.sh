@@ -7,3 +7,5 @@ cd fontforge-20110222
 ./configure --enable-pyextension --enable-double --without-x
 make
 make install
+cd ..
+rm fontforge.tar.bz2
