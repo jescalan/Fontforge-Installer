@@ -49,6 +49,7 @@
     NSString *script =  @"do shell script \"cd /tmp/fontforge-20110222/pyhook; sudo python setup.py install\" with administrator privileges";  
     NSAppleScript *appleScript = [[NSAppleScript new] initWithSource:script]; 
     if ([appleScript executeAndReturnError:&error]) {
+        [_spinner setHidden: YES];
         [_installStatus setStringValue: @"great success!"];
     } else {
         NSLog(@"%@", error);
