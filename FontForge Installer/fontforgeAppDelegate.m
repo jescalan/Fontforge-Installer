@@ -35,12 +35,8 @@
     
     // setup
     NSString* setupPath = [NSString stringWithFormat:@"%@%@", scriptsPath, @"setup.sh"];
-    // finish
-    NSString* finishPath = [NSString stringWithFormat:@"%@%@", scriptsPath, @"finish.sh"];
-    // cancel
-    NSString* cancelPath = [NSString stringWithFormat:@"%@%@", scriptsPath, @"cancel.sh"];
         
-    NSTask *task;
+    NSTask *task = [[NSTask alloc] init];
     task = [NSTask launchedTaskWithLaunchPath: @"/bin/bash"
                                     arguments:[NSArray arrayWithObjects: setupPath, nil]
             ];
@@ -53,26 +49,9 @@
     NSString *script =  @"do shell script \"cd /tmp/fontforge-20110222/pyhook; sudo python setup.py install\" with administrator privileges";  
     NSAppleScript *appleScript = [[NSAppleScript new] initWithSource:script]; 
     if ([appleScript executeAndReturnError:&error]) {
-        NSLog(@"success! running make install");
-        
-        NSDictionary *error2 = [NSDictionary new]; 
-        NSString *script2 =  @"do shell script \"cd /tmp/fontforge-20110222; make install\" ";  
-        NSAppleScript *appleScript2 = [[NSAppleScript new] initWithSource:script2]; 
-        if ([appleScript2 executeAndReturnError:&error2]) {
-            [_spinner setHidden: YES];
-            [_installStatus setStringValue: @"great success!"];
-        } else {
-            NSLog(@"%@", error2);
-        }
-        
+        [_installStatus setStringValue: @"great success!"];
     } else {
         NSLog(@"%@", error);
-        NSTask *task2;
-        task2 = [NSTask launchedTaskWithLaunchPath: @"/bin/bash"
-                                        arguments:[NSArray arrayWithObjects: cancelPath, nil]
-                ];
-        
-        [task2 waitUntilExit];
         [_installStatus setStringValue: @"huge failure!"];
     }
 

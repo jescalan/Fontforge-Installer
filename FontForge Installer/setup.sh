@@ -6,4 +6,4 @@ tar -xjf fontforge.tar.bz2
 cd fontforge-20110222
 ./configure --enable-pyextension --enable-double --without-x
 make
-# install python extensions
+make install
