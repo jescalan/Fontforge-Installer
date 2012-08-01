@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>11D50b</string>
+	<string>11E53</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -39,7 +39,7 @@
 	<key>DTXcodeBuild</key>
 	<string>4D502</string>
 	<key>LSMinimumSystemVersion</key>
-	<string>10.7</string>
+	<string>10.4</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2012 __MyCompanyName__. All rights reserved.</string>
 	<key>NSMainNibFile</key>
